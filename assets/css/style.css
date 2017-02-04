@@ -1,0 +1,256 @@
+
+body {
+	background-image: url(horns.png);
+	width: 960px;
+	}
+
+
+/*Navigation Bar*/
+ul {
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #46a;
+    font-style: Georgia;
+	}
+
+/*Navigation Bar - float right*/
+li {
+    float: right;
+    background-color: #46a;
+    font-style: Georgia;
+	}
+
+/*Navigation Bar Display*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 27px;
+    text-decoration: none;
+    background-color: #46a;
+    font-style: Georgia;
+	}
+
+/*Navigation Bar - Name*/
+li.Main-Name {
+	color: white;
+	float: left;
+	font-size: 35px;
+	background-color: #46a;
+	padding: 14px 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-style: Georgia;
+	}
+
+/*Nav Bar - Hover over to change bkgrnd of text*/
+li a:hover {
+	background-color: #236;
+		}
+
+
+/*Connect Box Formatting*/
+aside {
+	background-color: transparent;
+	float: right;
+	border-style: double;
+	border-color: #236;
+	font-style: sans-serif;
+	width: 270px;
+	border-width: 3px;
+	margin-top: 5px;
+	}
+
+.connect-box {
+	background-color: transparent;
+	color: #236;
+	font-style: sans-serif;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: underline;
+	width: 270px;
+	height: auto;
+	}
+
+.stack {
+	padding-left: 15px;
+	}
+
+.git {
+	padding-right: 10px;
+	object-position: center;
+	padding-left: 5px
+	}
+
+.link {
+	padding-left: 5px
+	padding-right: 8px;
+	}
+/*END connect box formatting*/
+
+
+/*Contact Page - Send me a mesg. box*/
+section {
+	background-color: ;
+	padding-left: 20px;
+	margin: 0px;
+	text-align: left;
+	float: left;
+	font-style: sans-serif;
+	}
+
+input {
+	width: 100%;
+	margin-left: 0px;
+	clear: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}
+
+
+
+/* Formatting submit button*/
+.submitbtn {
+	background-color: #236;
+	color: white;
+	clear:left;
+	}
+
+
+/*Aboutme Formatting*/
+.aboutme {
+	float:left;
+	background-color: gainsboro;
+	margin-bottom: 20px;
+	border-color: #236;
+	border-style: double;
+	width: 600px;
+	border-width: 3px;
+	margin-top: 7px;
+	margin-left: 2px;
+	}
+h2 {
+	color: #f55;
+	font-size: 30px;
+	font-style: ;
+	text-align: center;
+	text-decoration: underline;
+	margin: 0px;
+	padding: 0px;
+	}
+.profimage {
+	float:left;
+	width: 50%
+	height: auto;
+	margin-bottom: 30px;
+	margin-right: 20px
+	margin-left: 10px;
+	padding-left: 10px;
+	}
+
+.aboutmetxt {
+	float:left;
+	margin-left: 10px;
+	width: 425px
+	}
+/*END about me formatting*/
+
+
+/*Portfolio page formatting*/
+.comingsoon1 {
+	padding-left: 75px;
+	}
+
+.projectport {
+	text-align: center;
+	font-size: 40px;
+	padding-left: 80px;
+	font-style: Georgia;
+	color: #236;
+	}
+
+.project1 {
+	position: absolute;
+	left: 95px;
+	top: 250px;
+	z-index: 1;
+	color: #236;
+	background-color: white;
+	width: 12.9%;
+	height: 3%;
+	text-align: center;
+	}
+
+.project2 {
+	position: absolute;
+	left: 248px;
+	top: 250px;
+	z-index: 1;
+	color: #f55;
+	background-color: white;
+	width: 13%;
+	height: 3%;
+	text-align: center;
+	}
+
+.project3 {
+	position: absolute;
+	left: 403px;
+	top: 250px;
+	z-index: 1;
+	color: #236;
+	background-color: white;
+	width: 13%;
+	height: 3%;
+	text-align: center;
+	}
+
+.project4 {
+	position: absolute;
+	left: 95px;
+	top: 405px;
+	z-index: 1;
+	color: #f55;
+	background-color: white;
+	width: 13%;
+	height: 3%;
+	text-align: center;
+	}
+
+.project5 {
+	position: absolute;
+	left: 248px;
+	top: 405px;
+	z-index: 1;
+	color: #236;
+	background-color: white;
+	width: 13%;
+	height: 3%;
+	text-align: center;
+	}
+
+.project6 {
+	position: absolute;
+	left: 403px;
+	top: 405px;
+	z-index: 1;
+	color: #f55;
+	background-color: white;
+	width: 13%;
+	height: 3%;
+	text-align: center;
+	}
+/*END portfolio page formatting*/
+
+
+/*Footer Formatting*/
+footer {
+	clear: left;
+	padding: 10px;
+	background-color: #f55; 
+	text-align: center;
+	}
+
+
