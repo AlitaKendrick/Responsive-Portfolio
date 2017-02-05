@@ -51,54 +51,18 @@ li a:hover {
 		}
 
 
-/*Connect Box Formatting*/
-aside {
-	background-color: transparent;
-	float: right;
-	border-style: double;
-	border-color: #236;
-	font-style: sans-serif;
-	width: 270px;
-	border-width: 3px;
-	margin-top: 5px;
-	}
 
-.connect-box {
-	background-color: transparent;
-	color: #236;
-	font-style: sans-serif;
-	font-size: 25px;
-	text-align: center;
-	text-decoration: underline;
-	width: 270px;
-	height: auto;
-	}
-
-.stack {
-	padding-left: 15px;
-	}
-
-.git {
-	padding-right: 10px;
-	object-position: center;
-	padding-left: 5px
-	}
-
-.link {
-	padding-left: 5px
-	padding-right: 8px;
-	}
-/*END connect box formatting*/
 
 
 /*Contact Page - Send me a mesg. box*/
-section {
+.contactme {
 	background-color: ;
 	padding-left: 20px;
 	margin: 0px;
 	text-align: left;
 	float: left;
 	font-style: sans-serif;
+
 	}
 
 input {
@@ -159,6 +123,10 @@ h2 {
 
 
 /*Portfolio page formatting*/
+section {
+	width: 540px;
+}
+
 .comingsoon1 {
 	padding-left: 75px;
 	}
@@ -244,6 +212,44 @@ h2 {
 	}
 /*END portfolio page formatting*/
 
+/*Connect Box Formatting*/
+aside {
+	background-color: transparent;
+	float: right;
+	border-style: double;
+	border-color: #236;
+	font-style: sans-serif;
+	width: 270px;
+	border-width: 3px;
+	margin-top: 5px;
+	}
+
+.connect-box {
+	background-color: transparent;
+	color: #236;
+	font-style: sans-serif;
+	font-size: 25px;
+	text-align: center;
+	text-decoration: underline;
+	width: 270px;
+	height: auto;
+	}
+
+.stack {
+	padding-left: 15px;
+	}
+
+.git {
+	padding-right: 10px;
+	object-position: center;
+	padding-left: 5px
+	}
+
+.link {
+	padding-left: 5px
+	padding-right: 8px;
+	}
+/*END connect box formatting*/
 
 /*Footer Formatting*/
 footer {
@@ -251,6 +257,226 @@ footer {
 	padding: 10px;
 	background-color: #f55; 
 	text-align: center;
+	margin-top: 250px;
+	}
+
+/*First screen edits*/
+@media screen and (max-width: 980px) {
+		
+		body {
+			width: 900px;
+		}
+
+	/*about me page*/
+		.aboutme {
+			width: 300px;
+			float: left;
+			margin-left: 180px;
+		}
+
+		.aboutmetxt {
+			width: 250px;
+			float:left; 
+		}
+
+	/*connect box */
+		aside {
+			margin-right: 100px;
+		}
+
+	/*Contact page send me a message*/
+		section {
+			margin-left: 75px;
+		}
+
+		input {
+			margin-left: 25px;
+		}
+
+	/*portfolio page formatting*/
+		
+		.projectport {
+			text-align: center;
+			font-size: 40px;
+			font-style: Georgia;
+			color: #236;
+
+			}
+
+		.port3 {
+				padding-left: 100px;
+				padding-right: 500px;
+			}
+		
+		.port6 {
+				padding-left: 100px;
+				padding-right: 500px;
+			}
+
+		.port1 {
+				padding-left: 100px;
+				padding-right: 500px;
+			}
+
+		.port4 {
+				padding-left: 100px;
+				padding-right: 500px;
+			}
+
+		.port8 {
+				padding-left: 100px;
+				padding-right: 500px;
+			}
+
+		.port2 {
+				padding-left: 100px;
+				padding-right: 500px;
+			}
+
+		.project1 {
+			display: none;
+		}
+
+		.project2 {
+			display: none;
+		}
+
+		.project3 {
+			display: none;
+		}
+	
+		.project4 {
+			display: none;
+		}
+
+		.project5 {
+			display: none;
+		}
+
+		.project6 {
+			display: none;
+		}
+
+		footer {
+			margin-top: 500px
+		}
+  
+	}
+	
+
+/*Second screen edits*/
+@media screen and (max-width: 768px) {
+		
+		body {
+			width: 600px;
+		}
+
+	/*about me page*/
+		.aboutme {
+			width: 300px;
+			float: left;
+			margin-left: 180px;
+		}
+
+		.aboutmetxt {
+			width: 250px;
+			float:left; 
+		}
+
+	/*connect box */
+		aside {
+			margin-right: 100px;
+			position: relative;
+			padding: 25px;
+		}
+
+	/*Contact page send me a message*/
+		section {
+		
+			width: 300px;
+			margin: 0px
+		}
+
+		input {
+			margin-left: 25px;
+		}
+
+	/*portfolio page formatting*/
+		
+		.projectport {
+			text-align: center;
+			font-size: 40px;
+			padding-left: px;
+			font-style: Georgia;
+			color: #236;
+			}
+
+		/*.port3 {
+				float:left;
+				padding-left: 100px;
+				padding-right: 0px;
+			}
+		
+		.port6 {
+				float:left;
+				padding-left: 0px;
+				padding-right: 0px;
+			}
+
+		.port1 {
+				padding-left: 100px;
+				padding-right: 500px;
+			}
+
+		.port4 {
+				padding-left: 100px;
+				padding-right: 500px;
+			}
+
+		.port8 {
+				padding-left: 100px;
+				padding-right: 500px;
+			}
+
+		.port2 {
+				padding-left: 100px;
+				padding-right: 500px;
+			}*/
+
+		.project1 {
+			display: none;
+		}
+
+		.project2 {
+			display: none;
+		}
+
+		.project3 {
+			display: none;
+		}
+	
+		.project4 {
+			display: none;
+		}
+
+		.project5 {
+			display: none;
+		}
+
+		.project6 {
+			display: none;
+		}
+
+		footer {
+			margin-top: 700px;
+		}
+  
+	}
+
+
+@media screen and (max-width: 640px) {
+		
+
 	}
 
 
